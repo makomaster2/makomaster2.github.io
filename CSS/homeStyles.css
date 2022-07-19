@@ -1,0 +1,8 @@
+img {
+    /* height: 500px; */
+    margin: 50px 0px;
+    max-width: 80vw;
+    max-height: 500px;
+    padding: 10px;
+    border: solid white;
+}
