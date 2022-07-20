@@ -9,9 +9,9 @@ body * {
 	background-color: black;
 }
 
-/* Header Styles */
+/*------------ Header Styles ------------*/
 #projects h1 {
-    /* text-decoration: underline; */
+	/* text-decoration: underline; */
 }
 
 /*------------ Card Styles ------------*/
@@ -24,10 +24,17 @@ body * {
 }
 
 .card i {
-    font-size: xx-large;
+	font-size: xx-large;
 }
 
 /*------------ Nav Styles ------------*/
+
+#nav-placeholder {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
 
 #navList {
 	display: flex;
@@ -40,10 +47,10 @@ body * {
 #navList li a {
 	text-decoration: none;
 	font-size: x-large;
-    border-radius: 10%;
+	border-radius: 10%;
 }
 
-/* New Nav */
+/*------------ Navigation Bar Animations ------------*/
 .hoverable {
 	display: inline-block;
 	backface-visibility: hidden;
